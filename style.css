@@ -1,0 +1,145 @@
+* {   /* box-shadow: 0 0 1px #888;*/ -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;background: hsl(205, 82%, 83%);}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    width: 400px;
+    height: 60px;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+button {
+    margin: 3px;
+    padding: 10px;
+    background-color: #0090F0;
+    border: 2px solid black;
+    font-size: 20px;
+    color: aliceblue;
+    width: 120px;
+    transition: all 80ms;
+    font-family: Arial, Tahoma, Verdana, ;
+}
+
+
+button:hover {
+    background-color: #0074C2;
+}
+
+button:active {
+    background-color: #0062a3;
+}
+
+
+table {
+    position: relative;
+/*    top: 284px;*/
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-top: 4px;
+    width: 400px;
+}
+
+
+th {
+    background-color: #0074C2;
+    border: 1px solid #F0F3FF ;
+    padding: 13px 5px;
+    font-size: 25px;
+    color: #F0F3FF;
+}
+
+td {
+    
+    border: 1px solid black ;
+    padding: 10px;
+    font-size: 25px;
+    width: 85px;
+}
+
+tr:nth-child(even) td {
+    background-color: #42B4FF
+}
+
+
+tr:nth-child(odd) td {
+    background-color: #A3D1FF
+}
+
+td.num {
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    width: 75px;
+}
+
+
+td.position0, .position1, .position2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #EBEFFF;
+    background-color: #0089FA !important;
+}
+
+
+
+.demoClass {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 37px;
+    color: white;
+    font-weight: bold;
+    background: inherit;
+}
+
+
+
+
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    
+}
+
+
+
+
+
+.timer-block {
+    border: 2px solid black;
+/*    position: relative;*/
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #1FA6FF;
+    width: 400px;
+    height: 220px;
+    z-index: 1;
+}
+
+.timer-block-fixed {
+    position: fixed;
+    top: 0;
+}
+
+#timer-keeper {
+    width: 400px;
+    height: 220px;
+}
+
+
+
+#button-container {
+    width: 252px;
+    margin: 0 auto;
+    background: inherit;
+    position: relative;
+    bottom: 4px;
+}
